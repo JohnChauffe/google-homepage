@@ -1,0 +1,16 @@
+
+.d1{background:LightSkyBlue;}
+.d2{background:LightSalmon; justify-content: center;}
+.d3{background:PaleTurquoise;}
+
+.container {
+
+    width: 100%;
+    height: 1000px;
+    background: LightGray;
+    display: grid;
+
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 100%;
+
+  }
