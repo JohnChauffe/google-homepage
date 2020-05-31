@@ -1,16 +1,125 @@
+html{ 
+  height: 100%;
+}
 
-.d1{background:LightSkyBlue;}
-.d2{background:LightSalmon; justify-content: center;}
-.d3{background:PaleTurquoise;}
+body{
+  height: 100%;
+}
 
-.container {
+#container{
+  height: 100%;
+  display: grid;
+  grid-template-columns: 25% 950px 25%;
+  grid-template-rows: 16% 170px 50px 1fr;
+  
+}
 
-    width: 100%;
-    height: 1000px;
-    background: LightGray;
-    display: grid;
 
-    grid-template-columns: 25% 50% 25%;
-    grid-template-rows: 100%;
-
+#C5{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
   }
+#search {
+    position: relative;
+    bottom: 10px;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    position: relative;
+    border-radius: 24px;
+    height: 44px;
+    width: 500px;
+    padding-left: 35px;
+    padding-right: 35px;
+    
+  }
+
+#search:hover{
+    border: 1px solid #5F6368;}
+
+
+#C8{
+   
+    display: flex;
+    position: relative;
+    align-content: center;
+    justify-content: center;
+  }
+
+
+#magGlass{
+    position: relative;
+    right: 564px;
+    
+  }
+
+#logo{
+  position: relative;
+  right: 20px;
+}
+
+#microphone{
+  position: relative;
+  right: 70px;
+}
+
+#go:hover{
+  border-width: 1px;
+  border-color: #5F6368;
+}
+
+#lucky:hover{
+  border-width: 1px;
+  border-color: #5F6368;
+}
+
+#go{
+position: relative;
+left: 337px;
+top: 10px;
+width: 126px;
+height: 36px;
+background-color: #f2f2f2;
+border-color: transparent;
+color: #5F6368;
+font-size: 14px;
+}
+
+
+#lucky{
+position: relative;
+left: 345px;
+top: 10px;
+width: 126px;
+height: 36px;
+background-color: #f2f2f2;
+border-color: transparent;
+color: #5F6368;
+font-size: 14px;
+}
+
+.link{
+  position: relative;
+  font-size: 14px;
+  color: #5F6368;
+  text-decoration: none;
+}
+#about{
+  left: 18px;
+  top: 12px;
+}
+
+#store{
+  left: 29px;
+  top: 12px;
+}
+
+#gmail{
+  left: 238px;
+  top: 12px;
+}
+
+#images{
+  left: 247px;
+  top: 12px;
+}
