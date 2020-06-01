@@ -52,7 +52,7 @@ body{
 #magGlass{
     position: relative;
     right: 541px;
-    50px
+
   }
 
 #logo{
@@ -92,7 +92,7 @@ position: relative;
 left: 345px;
 top: 10px;
 width: 126px;
-height: 36px;black
+height: 36px;
 background-color: #f2f2f2;
 border-color: transparent;
 color: #5F6368;
