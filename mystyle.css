@@ -3,18 +3,16 @@ html{
 }
 
 body{
-  height: 100%;
+  height: 98%;
 }
 
 #container{
-  height: 100%;
+  height: 101%;
   display: grid;
-  grid-template-columns: 25% 950px 25%;
-  grid-template-rows: 16% 170px 50px 1fr;
+  grid-template-columns: 25% 50% 25%;
+  grid-template-rows: 16% 170px 5% 1fr 4%;
   
 }
-
-
 #C5{
     display: flex; 
     justify-content: center;
@@ -23,6 +21,7 @@ body{
 #search {
     position: relative;
     bottom: 10px;
+    left: 25px;
     border: 1px solid #dfe1e5;
     box-shadow: none;
     position: relative;
@@ -31,12 +30,15 @@ body{
     width: 500px;
     padding-left: 35px;
     padding-right: 35px;
-    
+    outline: none;
   }
 
 #search:hover{
     border: 1px solid #5F6368;}
 
+#search:focus{
+    border: 2px solid black;
+}
 
 #C8{
    
@@ -49,18 +51,18 @@ body{
 
 #magGlass{
     position: relative;
-    right: 564px;
-    
+    right: 541px;
+    50px
   }
 
 #logo{
   position: relative;
-  right: 20px;
+  right: 5px;
 }
 
 #microphone{
   position: relative;
-  right: 70px;
+  right: 45px;
 }
 
 #go:hover{
@@ -85,13 +87,12 @@ color: #5F6368;
 font-size: 14px;
 }
 
-
 #lucky{
 position: relative;
 left: 345px;
 top: 10px;
 width: 126px;
-height: 36px;
+height: 36px;black
 background-color: #f2f2f2;
 border-color: transparent;
 color: #5F6368;
@@ -108,18 +109,81 @@ font-size: 14px;
   left: 18px;
   top: 12px;
 }
+#about:hover{
+  text-decoration: underline;
+}
 
 #store{
   left: 29px;
   top: 12px;
 }
 
+#store:hover{
+  text-decoration: underline;
+}
+
 #gmail{
-  left: 238px;
-  top: 12px;
+  left: 240px;
+  bottom: 7px;
+}
+
+#gmail:hover{
+  text-decoration: underline;
 }
 
 #images{
-  left: 247px;
-  top: 12px;
+  left: 250px;
+  bottom: 7px
+}
+
+#images:hover{
+  text-decoration: underline;
+}
+
+#apps{
+  position: relative;
+  left: 263px;
+  text-decoration: none;
+}
+
+#signin{
+  position: relative;
+  left: 278px;
+  top: 5px;
+}
+
+.footer{
+  background-color: #f2f2f2;
+  padding: -5px;
+  margin: -2px;
+  margin-left: -13px;
+  margin-right: -8px;
+}
+
+.footer-link{
+  position: relative;
+  font-size: 16px;
+  top: 13px;
+  left: 16px;
+  color: #5F6368;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.footer-link:hover{
+  text-decoration: underline;
+}
+
+.footer-link2{
+  position: relative;
+  font-size: 16px;
+  top: 13px;
+  left: 265px;
+  color: #5F6368;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.footer-link2:hover{
+  text-decoration: underline;
 }
